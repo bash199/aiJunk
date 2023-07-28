@@ -1,0 +1,46 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+.main-container {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.images-and-addBtn-parent {
+   width: 80%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.images-box {
+   width: 90%;
+   height: 40%;
+   border: 1px solid rgb(160, 160, 160);
+   position: relative;
+}
+
+.add-image-button-parent {
+   width: calc(100% - 92% - 5px);
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.add-image-button {
+   width: 100%;
+   height: fit-content;
+}
+
+.image {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   object-fit: fill;
+}
